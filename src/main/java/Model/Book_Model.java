@@ -1,7 +1,6 @@
 package Model;
 
 import lombok.*;
-
 @AllArgsConstructor
 @Getter
 @Setter
