@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Book_test {
-    public static void testCrudOperations() {
+    public static void testCrudOperationsBook() {
         BookCrudOperations crudOperations = new BookCrudOperations();
         // Test de findAll
         System.out.println("Testing findAll:");

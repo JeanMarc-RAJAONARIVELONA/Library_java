@@ -2,11 +2,14 @@ package org.example;
 
 import Connection.Db_connection;
 
-import static Mock_test.Book_test.testCrudOperations;
+import static Mock_test.Author_test.testCrudOperationsAuthor;
+import static Mock_test.Book_test.testCrudOperationsBook;
 
 public class Main {
     public static void main(String[] args) {
         Db_connection.getConnection();
-        testCrudOperations();
+        /*testCrudOperationsBook();*/
+        testCrudOperationsAuthor();
     }
+
 }
