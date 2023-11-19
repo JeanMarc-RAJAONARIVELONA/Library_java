@@ -1,5 +1,7 @@
 package Interface;
 
+import java.util.List;
+
 public interface CrudOperations <T> {
     public List<T> findAll();
     public List<T> saveAll(List<T>toSave);
