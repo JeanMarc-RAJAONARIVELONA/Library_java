@@ -31,8 +31,8 @@ public class Author_test {
         // Test de saveAll
         System.out.println("\nTesting saveAll:");
         List<Author_Model> authorsToAdd = new ArrayList<>();
-        authorsToAdd.add(new Author_Model(0, "Author A", "Female"));
-        authorsToAdd.add(new Author_Model(0, "Author B", "Male"));
+        authorsToAdd.add(new Author_Model(0, "Author A", "F"));
+        authorsToAdd.add(new Author_Model(0, "Author B", "M"));
         crudOperations.saveAll(authorsToAdd);
 
         // Afficher tous les auteurs après l'ajout multiple
