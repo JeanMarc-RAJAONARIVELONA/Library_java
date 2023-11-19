@@ -1,25 +1,27 @@
 package Interface;
 
+import Model.Subscribers_Model;
+
 import java.util.List;
 
-public class SubscribersCrudOperations  implements CrudOperations{
+public class SubscribersCrudOperations  implements CrudOperations<Subscribers_Model>{
     @Override
-    public List findAll() {
+    public List<Subscribers_Model> findAll() {
         return null;
     }
 
     @Override
-    public List saveAll(List toSave) {
+    public List<Subscribers_Model> saveAll(List toSave) {
         return null;
     }
 
     @Override
-    public Object save(Object toSave) {
+    public Subscribers_Model save(Subscribers_Model toSave) {
         return null;
     }
 
     @Override
-    public Object delete(Object toDelete) {
+    public Subscribers_Model delete(Subscribers_Model toDelete) {
         return null;
     }
 }
